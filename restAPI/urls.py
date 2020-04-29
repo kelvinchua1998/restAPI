@@ -22,6 +22,7 @@ from django.conf.urls import url
 
 
 urlpatterns = [
+    path("", admin.site.urls),
     url(r'^admin/', admin.site.urls),
     url(r'^employees/', views.employeelist.as_view()),
 ]
