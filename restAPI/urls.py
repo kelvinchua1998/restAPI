@@ -22,7 +22,8 @@ from django.conf.urls import url
 
 
 urlpatterns = [
-    path("", admin.site.urls),
-    url(r'^admin/', admin.site.urls),
-    url(r'^employees/', views.employeelist.as_view()),
+    # path("", admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('employees/', views.employeelist.as_view()),
+    path("detail/<int:id>/", views.employee_detail.as_view())
 ]
