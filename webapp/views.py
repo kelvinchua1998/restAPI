@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from . models import employees
 from . serializers import employeesSerializer
+from rest_framework.parsers import JSONParser
 
 class employeelist(APIView):
 
@@ -16,5 +17,10 @@ class employeelist(APIView):
         serializers = employeesSerializer(employees1, many = True)
         return Response(serializers.data)
 
-    def post(self):
-        pass
+    def post(self,request):
+        # data = JSONParser().parse(request)
+        serializers = employeesSerializer(data= request.data)
+        if serializers.is_valid():
+            serializers.save()
+            return Response(serializers.data, status= 201)
+        return Response(serializers.errors, status= 400)
