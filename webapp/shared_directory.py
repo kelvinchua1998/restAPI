@@ -1,6 +1,5 @@
 import requests #pip3 install request
 
-r = requests.get("http://127.0.0.1:8000/speedresult/")
+payload = {"date" : ' 2017', "download": '112.812',"upload": '212.82000'}
 
-shared = open("shared.txt","w")
-shared.write(r.json())
+r = requests.post("http://127.0.0.1:8000/speedresult/",json = payload)
