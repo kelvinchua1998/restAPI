@@ -2,3 +2,15 @@ db.sqlite3
 __pycache__/*
 webapp/__pycache__/*
 restAPI/__pycache__/*
+webapp/migrations/__pycache__/0001_initial.cpython-38.pyc
+webapp/migrations/__pycache__/0002_employees_emp_id.cpython-38.pyc
+webapp/migrations/__pycache__/__init__.cpython-38.pyc
+ webapp/__pycache__/__init__.cpython-38.pyc
+webapp/__pycache__/admin.cpython-38.pyc
+webapp/__pycache__/models.cpython-38.pyc
+ webapp/__pycache__/serializers.cpython-38.pyc
+webapp/__pycache__/views.cpython-38.pyc
+restAPI/__pycache__/__init__.cpython-38.pyc
+restAPI/__pycache__/settings.cpython-38.pyc
+restAPI/__pycache__/urls.cpython-38.pyc
+restAPI/__pycache__/wsgi.cpython-38.pyc
