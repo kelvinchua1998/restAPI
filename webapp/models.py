@@ -2,7 +2,7 @@ from django.db import models
 
 
 class speedtest_result(models.Model):
-    logfile = models.FileField(default="",null=True,upload_to="file_uploads")
+    logfile = models.FileField(default="", upload_to="file_uploads")
     token = models.CharField(max_length=30)
     timestamp = models.CharField(max_length=30)
 
