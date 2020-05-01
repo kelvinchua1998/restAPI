@@ -15,7 +15,7 @@ class speedtest_list(APIView):
     def get(self, request):
         all_result = speedtest_result.objects.all()
         serializers = resultSerializer(all_result, many = True)
-        return Response(data=var,status=201)
+        return Response(serializers.data,status=201)
 
     def post(self,request):
         serializers = resultSerializer(data= request.data)
