@@ -1,0 +1,9 @@
+﻿2020-04-29 15:12:55> Program: Starting Squirrel Updater: --createShortcut=Postman.exe
+2020-04-29 15:12:55> ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir C:\Users\kelvi\AppData\Local\Postman
+2020-04-29 15:12:55> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\kelvi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+2020-04-29 15:12:55> ApplyReleasesImpl: About to save shortcut: C:\Users\kelvi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target C:\Users\kelvi\AppData\Local\Postman\Postman.exe, workingDir C:\Users\kelvi\AppData\Local\Postman\app-7.23.0, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-04-29 15:12:55> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\kelvi\OneDrive\Desktop\Postman.lnk
+2020-04-29 15:12:55> ApplyReleasesImpl: About to save shortcut: C:\Users\kelvi\OneDrive\Desktop\Postman.lnk (target C:\Users\kelvi\AppData\Local\Postman\Postman.exe, workingDir C:\Users\kelvi\AppData\Local\Postman\app-7.23.0, args , toastActivatorCSLID d56d0ae8-2c2a-5b45-bd3b-9973bc69da9e)
+2020-04-29 15:12:55> ApplyReleasesImpl: Examining Pin: All-in-One Messenger.lnk
+2020-04-29 15:12:55> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2020-04-29 15:12:55> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
