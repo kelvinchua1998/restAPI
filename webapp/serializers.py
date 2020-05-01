@@ -5,5 +5,5 @@ class resultSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = speedtest_result
-        fields = ("date","download", "upload")
+        fields = ("file","date","download", "upload")
         fields = "__all__"
